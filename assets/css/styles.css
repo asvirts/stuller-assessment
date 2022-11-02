@@ -1,6 +1,42 @@
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+/* HEADER */
+
+
+/* NAV */
+
+
+/* MAIN SECTION */
+.magic-stone {
+    background-color: #202020;
+    display: block;
+    margin-left: 0;
+}
+
+/* FOOTER */
+
 footer {
     background-color: #58595b;
     color: #f8f8f8;
     height: 200px;
     width: 100%;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+}
+
+button {
+    background-color: #b8a580;
+    color: #f8f7f4;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 20px;
+    text-transform: uppercase;
 }
