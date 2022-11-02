@@ -1,6 +1,27 @@
+/* DOCUMENT STANDARDS */
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 body {
     background-color: #fff;
     margin: 0;
+}
+button {
+    background-color: #b8a580;
+    color: #f8f7f4;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 20px;
+}
+
+/* UTILITIES */
+.align-items-center {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
 }
 
 /* HEADER */
@@ -12,6 +33,7 @@ body {
 /* MAIN SECTION */
 .magic-stone {
     background-color: #202020;
+    color: #fff;
     display: block;
     margin-left: 0;
 }
@@ -23,20 +45,4 @@ footer {
     color: #f8f8f8;
     height: 200px;
     width: 100%;
-}
-
-.align-items-center {
-    display: flex;
-    align-items: center;
-    min-height: 100%;
-    width: 100%;
-}
-
-button {
-    background-color: #b8a580;
-    color: #f8f7f4;
-    border: none;
-    border-radius: 10%;
-    padding: 5px 20px;
-    text-transform: uppercase;
 }
