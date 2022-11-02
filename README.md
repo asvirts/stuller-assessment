@@ -1,4 +1,4 @@
-# stuller-assessment
+# Stuller Assessment
  Assessment for employment with Stuller.
 
-Link to Live Preview: https://asvirts.github.io/stuller-assessment/
+# Link to Live Preview: https://asvirts.github.io/stuller-assessment/
