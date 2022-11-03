@@ -27,9 +27,6 @@ a.btn {
     font-weight: bold;
     text-transform: uppercase;
 }
-h2 {
-    font-family: 'Franchise-Bold';
-}
 
 /* UTILITIES */
 
@@ -104,7 +101,7 @@ a.nav-link:focus {
     height: 390px;
 }
 p {
-    font-family: 'Archer Semibold';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* FOOTER */
