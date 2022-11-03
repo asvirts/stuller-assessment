@@ -104,24 +104,31 @@ a.nav-link:focus {
 .grid-1 {
     background-image: url('/assets/img/home_images_03.jpg');
     background-repeat: no-repeat;
-    padding: 125px 175px;
+    padding: 90px 125px;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
+    text-align: center;
 }
 .grid-2 {
     background-image: url('/assets/img/home_images_05.jpg');
     background-repeat: no-repeat;
-    padding: 90px 10px;
+    padding: 135px 30px 12px;
+    color: white;
+    font-size: 30px;
 }
 .grid-3 {
     background-image: url('/assets/img/home_images_10.jpg');
     background-repeat: no-repeat;
-    padding: 90px 10px;
-    margin: 25px 0 0 0;
+    padding: 135px 8px 12px;
+    color: white;
+    font-size: 30px;
+    margin-top: 24px;
 }
 .grid-4 {
     background-image: url('/assets/img/home_images_07.jpg');
-    padding: 192px 5px;
+    padding: 192px 5px 152px;
+    color: white;
+    font-size: 30px;
 }
 .magic-stone {
     background-color: var(--dark-color);
