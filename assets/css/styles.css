@@ -22,6 +22,16 @@ button.btn:hover {
     background-color: var(--gray-color);
     border: 1px solid var(--gray-color);
 }
+button.btn.alt {
+    background-color: var(--gold-color);
+    border: 1px solid var(--gold-color);
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+button.btn.alt:hover {
+    background-color: #414141;
+    border: 1px solid #414141;
+}
 a.btn {
     color: var(--light-color);
     font-weight: bold;
