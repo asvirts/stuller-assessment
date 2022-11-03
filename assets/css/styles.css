@@ -43,7 +43,16 @@ h2 {
     font-weight: bold;
 }
 .color-gray {
-    color: var(--gray-color)
+    color: #414141;
+}
+.color-gray:hover {
+    color: var(--gold-color);
+}
+.color-white {
+    color: var(--light-color);
+}
+.color-white:hover {
+    color: var(--gold-color);
 }
 .relative {
     position: relative;
@@ -71,8 +80,15 @@ i {
 a.nav-link {
     color: #666768;
     font-weight: bold;
+    text-transform: uppercase;
 }
 a.nav-link:hover {
+    color: #b8a580;
+}
+a.nav-link:active {
+    color: #b8a580;
+}
+a.nav-link:focus {
     color: #b8a580;
 }
 
