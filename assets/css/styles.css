@@ -104,35 +104,38 @@ a.nav-link:focus {
 .grid-1 {
     background-image: url('/assets/img/home_images_03.jpg');
     background-repeat: no-repeat;
-    padding: 90px 125px;
+    padding: 81px 118px;
     color: white;
     font-size: 50px;
     text-align: center;
+    margin: 0;
 }
 .grid-2 {
     background-image: url('/assets/img/home_images_05.jpg');
     background-repeat: no-repeat;
-    padding: 135px 30px 12px;
+    padding: 136px 30px 12px;
     color: white;
-    font-size: 30px;
+    font-size: 28px;
+    margin: 0;
 }
 .grid-3 {
     background-image: url('/assets/img/home_images_10.jpg');
     background-repeat: no-repeat;
-    padding: 135px 8px 12px;
+    padding: 136px 8px 12px;
     color: white;
-    font-size: 30px;
-    margin-top: 24px;
+    font-size: 28px;
+    margin-top: 25px;
 }
 .grid-4 {
     background-image: url('/assets/img/home_images_07.jpg');
-    padding: 192px 5px 152px;
+    background-repeat: no-repeat;
+    padding: 333px 17px 12px;
     color: white;
-    font-size: 30px;
+    font-size: 28px;
+    margin: 0;
 }
 .magic-stone {
     background-color: var(--dark-color);
-    background-repeat: no-repeat;
     color: #fff;
 }
 p {
