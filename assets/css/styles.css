@@ -201,6 +201,7 @@ a:active {
     background-color: var(--dark-color);
     color: #fff;
     font-size: 14px;
+    width: 100%;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
