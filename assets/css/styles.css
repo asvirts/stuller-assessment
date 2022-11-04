@@ -86,6 +86,7 @@ i {
 
 a.nav-link {
     color: #666768;
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -105,24 +106,27 @@ a.nav-link:focus {
     background-image: url('/assets/img/home_images_03.jpg');
     background-repeat: no-repeat;
     padding: 102px 130px;
+    width: 100%;
+    height: auto;
     color: white;
     font-size: 44px;
-    text-align: center;
-    margin: 0 26px 0 0;
     line-height: normal;
 }
 .grid-2 {
     background-image: url('/assets/img/home_images_05.jpg');
     background-repeat: no-repeat;
     padding: 136px 30px 12px;
+    width: 100%;
+    height: auto;
     color: white;
     font-size: 28px;
-    margin: 0;
 }
 .grid-3 {
     background-image: url('/assets/img/home_images_10.jpg');
     background-repeat: no-repeat;
     padding: 136px 8px 12px;
+    width: 100%;
+    height: auto;
     color: white;
     font-size: 28px;
     margin-top: 25px;
@@ -131,9 +135,10 @@ a.nav-link:focus {
     background-image: url('/assets/img/home_images_07.jpg');
     background-repeat: no-repeat;
     padding: 333px 17px 12px;
+    width: 100%;
+    height: auto;
     color: white;
     font-size: 28px;
-    margin: 0;
 }
 .magic-stone {
     background-color: var(--dark-color);
