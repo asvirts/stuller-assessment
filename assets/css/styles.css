@@ -114,47 +114,93 @@ a:active {
 
 /* MAIN SECTION */
 
+.thumbnail {
+    position: relative;
+}
+
+.caption-custom {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(1px 1px 4px var(--dark-color));
+}
+.caption-quick {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 38%;
+    left: 0;
+    width: 100%;
+    filter: drop-shadow(1px 1px 4px var(--dark-color));
+}
+.caption-wedding {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 91%;
+    left: 0;
+    width: 100%;
+    filter: drop-shadow(1px 1px 4px var(--dark-color));
+}
+.caption-mens {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 91%;
+    left: 0;
+    width: 100%;
+    filter: drop-shadow(1px 1px 4px var(--dark-color));
+}
 .grid-1 {
     background-image: url('/assets/img/home_images_03.jpg');
     background-repeat: no-repeat;
-    padding: 102px 130px;
+    padding: 135px 130px;
     width: 100%;
     height: auto;
     color: white;
     font-size: 44px;
-    line-height: normal;
+    line-height: 1;
 }
 .grid-2 {
     background-image: url('/assets/img/home_images_05.jpg');
     background-repeat: no-repeat;
-    padding: 136px 30px 12px;
+    padding: 100px 40px 12px;
     width: 100%;
     height: auto;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
 }
 .grid-3 {
     background-image: url('/assets/img/home_images_10.jpg');
     background-repeat: no-repeat;
-    padding: 136px 8px 12px;
+    padding: 100px 22px 12px;
     width: 100%;
     height: auto;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 25px;
 }
 .grid-4 {
     background-image: url('/assets/img/home_images_07.jpg');
     background-repeat: no-repeat;
-    padding: 333px 17px 12px;
+    padding: 333px 60px 12px;
     width: 100%;
     height: auto;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
 }
 .magic-stone {
     background-color: var(--dark-color);
     color: #fff;
+    font-size: 14px;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
