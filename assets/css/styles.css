@@ -104,11 +104,12 @@ a.nav-link:focus {
 .grid-1 {
     background-image: url('/assets/img/home_images_03.jpg');
     background-repeat: no-repeat;
-    padding: 81px 118px;
+    padding: 102px 130px;
     color: white;
-    font-size: 50px;
+    font-size: 44px;
     text-align: center;
-    margin: 0;
+    margin: 0 26px 0 0;
+    line-height: normal;
 }
 .grid-2 {
     background-image: url('/assets/img/home_images_05.jpg');
@@ -147,16 +148,14 @@ p {
 footer {
     background-color: #58595b;
     color: var(--footer-color);
-    height: 200px;
+    height: 250px;
     width: 100%;
 }
 
 
 /* FONTS */
 
-.archivo {
-    font-family: 'Archivo Black', sans-serif;
-}
+
 .open-sans {
     font-family: 'Open Sans', sans-serif;
 }
