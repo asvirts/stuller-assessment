@@ -154,3 +154,12 @@ footer {
 
 /* FONTS */
 
+.archivo {
+    font-family: 'Archivo Black', sans-serif;
+}
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+.rokkitt {
+    font-family: 'Rokkitt', serif;
+}
