@@ -122,8 +122,9 @@ a:active {
     color: white;
     font-weight: bold;
     font-size: 55px;
+    line-height: 1.1;
     position: absolute;
-    top: 18%;
+    top: 25%;
     left: 0;
     width: 100%;
     text-align: center;
