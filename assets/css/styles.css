@@ -159,44 +159,6 @@ a:active {
     width: 100%;
     filter: drop-shadow(1px 1px 4px var(--dark-color));
 }
-.grid-1 {
-    background-image: url('/assets/img/home_images_03.jpg');
-    background-repeat: no-repeat;
-    padding: 135px 130px;
-    width: 100%;
-    height: auto;
-    color: white;
-    font-size: 44px;
-    line-height: 1;
-}
-.grid-2 {
-    background-image: url('/assets/img/home_images_05.jpg');
-    background-repeat: no-repeat;
-    padding: 100px 40px 12px;
-    width: 100%;
-    height: auto;
-    color: white;
-    font-size: 20px;
-}
-.grid-3 {
-    background-image: url('/assets/img/home_images_10.jpg');
-    background-repeat: no-repeat;
-    padding: 100px 22px 12px;
-    width: 100%;
-    height: auto;
-    color: white;
-    font-size: 20px;
-    margin-top: 25px;
-}
-.grid-4 {
-    background-image: url('/assets/img/home_images_07.jpg');
-    background-repeat: no-repeat;
-    padding: 333px 60px 12px;
-    width: 100%;
-    height: auto;
-    color: white;
-    font-size: 20px;
-}
 .magic-stone {
     background-color: var(--dark-color);
     color: #fff;
@@ -226,3 +188,14 @@ footer {
 .rokkitt {
     font-family: 'Rokkitt', serif;
 }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 991px) {
+    .magic-stone-md {
+        background-color: var(--dark-color);
+        width: 100%;
+    }
+  }
+  
